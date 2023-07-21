@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.formTodo{
+    width: 300px;
+    margin: 0 auto;
+    .forminput{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        .iputtxt1{
+            width: 80%;
+        }
+        .iputtxt2{
+            width: 20%;
+        }
+    }
+    .listTodo{
+        width: 300px;
+        .listTitle{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            span{
+                display:flex;
+            }
+
+            .inputtxt{
+                input{
+                    height: 30px;
+                }
+            }
+        }
+    }
+    ul{
+        margin: 10px;
+        li{
+            border-top: 1px solid #000;
+            list-style: none;
+            padding: 10px;
+        }
+    }
+}

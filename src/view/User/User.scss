@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 400px;
+    margin: 0 auto;
+     p{
+         font-size: 32px;
+         text-align: center;
+     }
+}
+
+.listUser{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    color:rgb(55, 145, 157);
+}
